@@ -1,0 +1,30 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.nav {
+    text-decoration: underline;
+    padding: 0.5rem;
+}
+
+.nav.white > .nav-item > .nav-link {
+    color: #0A2240;
+}
+
+.nav.dark > .nav-item > .nav-link {
+    color: #FFF;
+}
+
+footer {
+    padding: 1rem;
+}
+
+footer.white {
+    color: #9AA0A4;
+}
+
+footer.dark {
+    color: #FFF;
+}
